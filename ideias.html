@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ideias - Casa Criativa</title>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+</head>
+
+<body id="pagina-ideias">
+    
+   <div id="container">
+        <header>
+            <a href="index.html">
+                <img src="assets/img/logo.png" alt="logo da casaCriativa">
+            </a>
+           
+            <li><a href="index.html">Início</a></li>
+
+            <li><a class="button"href="#" onclick="onOff()">Nova Ideia</a></li>
+            
+        </header>
+
+        <section id="titulo">
+            <p>Em exibição</p>
+            <h1>Ideias</h1>
+        </section>
+
+        <main>
+            <section id="ideias">
+                <div class="ideia">
+                    <img src="https://cdn-icons-png.flaticon.com/512/6729/6729058.png" alt="imagem de curso de programação">
+                    <div class="conteudo">
+                        <h3>Cursos de programação</h3>
+                        <p>Estudo</p>
+                        <div class="descricao">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to  
+                        </div>
+                        <a href="#">Ir para a ideia</a>
+                    </div>
+                </div>
+
+                <div class="ideia">
+                    <img src="https://cdn-icons-png.flaticon.com/512/6729/6729010.png" alt="imagem de uma pessoa fazendo exerício">
+                    <div class="conteudo">
+                        <h3>Exercício</h3>
+                        <p>Saúde</p>
+                        <div class="descricao">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to  
+                        </div>
+                        <a href="#">Ir para a ideia</a>
+                    </div>
+                </div>
+
+                <div class="ideia">
+                    <img src="https://cdn-icons-png.flaticon.com/512/6728/6728969.png" alt="imagem de uma pessoa meditando">
+                    <div class="conteudo">
+                        <h3>Meditação</h3>
+                        <p>Mentalidade</p>
+                        <div class="descricao">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to  
+                        </div>
+                        <a href="#">Ir para a ideia</a>
+                    </div>
+                </div>
+
+                <div class="ideia">
+                    <img src="https://cdn-icons-png.flaticon.com/512/864/864811.png" alt="imagem de uma pessoa karaokê">
+                    <div class="conteudo">
+                        <h3>karaokê</h3>
+                        <p>Diversão em familia</p>
+                        <div class="descricao">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to  
+                        </div>
+                        <a href="#">Ir para a ideia</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            Com ❤️ <a href="https://www.rocketseat.com.br" target="_blank">Rocketseat</a>
+        </footer>
+   </div>
+
+      <!-- Modal-->
+
+      <div id="modal" class="hide">
+        <div class="content">
+            <h1>Nova ideia</h1>
+
+            <form>
+
+                <div class="input-wrape">
+                    <label for="titulo">Titulo da Ideia</label>
+                    <input type="text" name="titulo">
+                </div>
+
+                <div class="input-wrape">
+                    <label for="categoria">Categoria</label>
+                    <input type="text" name="categoria">
+                </div>
+
+                <div class="input-wrape">
+                    <label for="imagem">Link da imagem</label>
+                    <input type="url" name="imagem">
+                </div>
+
+                <div class="input-wrape">
+                    <label for="descricao">Digite uma descrição para essa ideia</label>
+                    <textarea name="descricao" cols="30" rows="10"></textarea>
+
+                </div>
+
+                <div class="input-wrape">
+                    <label for="link">Link da ideia</label>
+                    <input type="url" name="link">
+                </div>
+
+                <a href="#" onclick="onOff()">Voltar</a>
+                <button>Salvar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
