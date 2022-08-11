@@ -8,24 +8,121 @@
     </head>
 
     <body>
-        <img src="assets/img/logo.png" alt="logo da casaCriativa">
 
-        <p>
-            Ficar em casa em períodos longos, não deve ser nada fácil.
-        </p>
+        <div id="container">
 
-        <p>
-            Por isso, iremos catalogar ideias, <strong>brincadeiras, jogos, filmes, livros, cursos, dicas</strong> e tudo que for necessáriopara tornar esse momento mais interessante.
-        </p>
+            <section id="intro">
+                <header>
+                    <img src="assets/img/logo.png" alt="logo da casaCriativa">
+                </header>
+                
+                <main>
+                    <p>
+                        Ficar em casa em períodos longos, não deve ser nada fácil.
+                    </p>
+    
+                    <p>
+                        Por isso, iremos catalogar ideias, <strong>brincadeiras, jogos, filmes, livros, cursos, dicas</strong> e tudo que for necessáriopara tornar esse momento mais interessante.
+                    </p>
+    
+                    <p>
+                        Comece clicando em ver ideias para ver as ideias cadastradas e contribua adicionando a sua ideia.
+                    </p>
+                </main>
+                
+                <section id="buttons">
+                    <button onclick="onOff()">+Adicionar Ideias</button>
+                    <button class="fat">Ver ideias</button>
+                </section>
+                
+                
 
-        <p>
-            Comece clicando em ver ideias para ver as ideias cadastradas e contribua adicionando a sua ideia.
-        </p>
+                <footer>
+                    Com ❤️ <a href=https://www.rocketseat.com.br>Rocketseat</a>
+                </footer>
+            </section>
 
-        <button>+Adicionar Ideias</button>
-        <button class="fat">Ver ideias</button>
+            <section id="last-ideias">,
+                <div class="ideia">
+                    <img src="https://cdn-icons-png.flaticon.com/512/6729/6729058.png" alt="imagem de curso de programação">
+                    <div class="conteudo">
+                        <h3>Cursos de programação</h3>
+                        <p>Estudo</p>
+                        <div class="descricao">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to  
+                        </div>
+                        <a href="#">Ir para a ideia</a>
+                    </div>
+                </div>
 
-        <p id="footer">Com ❤️ <a href=https://www.rocketseat.com.br>Rocketseat</a></p>
+                <div class="ideia">
+                    <img src="https://cdn-icons-png.flaticon.com/512/6729/6729010.png" alt="imagem de uma pessoa fazendo exerício">
+                    <div class="conteudo">
+                        <h3>Exercício</h3>
+                        <p>Saúde</p>
+                        <div class="descricao">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to  
+                        </div>
+                        <a href="#">Ir para a ideia</a>
+                    </div>
+                </div>
+
+                <div class="ideia">
+                    <img src="https://cdn-icons-png.flaticon.com/512/6728/6728969.png" alt="imagem de uma pessoa meditando">
+                    <div class="conteudo">
+                        <h3>Meditação</h3>
+                        <p>Mentalidade</p>
+                        <div class="descricao">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to  
+                        </div>
+                        <a href="#">Ir para a ideia</a>
+                    </div>
+                </div>
+
+            </section>
+            
+        </div>
+
+        <!-- Modal-->
+
+        <div id="modal" class="hide">
+            <div class="content">
+                <h1>Nova ideia</h1>
+
+                <form>
+
+                    <div class="input-wrape">
+                        <label for="titulo">Titulo da Ideia</label>
+                        <input type="text" name="titulo">
+                    </div>
+
+                    <div class="input-wrape">
+                        <label for="categoria">Categoria</label>
+                        <input type="text" name="categoria">
+                    </div>
+
+                    <div class="input-wrape">
+                        <label for="imagem">Link da imagem</label>
+                        <input type="url" name="imagem">
+                    </div>
+
+                    <div class="input-wrape">
+                        <label for="descricao">Digite uma descrição para essa ideia</label>
+                        <textarea name="descricao" cols="30" rows="10"></textarea>
+
+                    </div>
+
+                    <div class="input-wrape">
+                        <label for="link">Link da ideia</label>
+                        <input type="url" name="link">
+                    </div>
+
+                    <a href="#" onclick="onOff()">Voltar</a>
+                    <button>Salvar</button>
+                </form>
+            </div>
+        </div>
+
         <script src="assets/script.js"></script>
     </body>
 
