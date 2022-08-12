@@ -1,0 +1,25 @@
+{
+  "name": "projeto-casa-criativa",
+  "version": "1.0.0",
+  "description": "projeto acadêmico da Rocketseat",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgorNascimentoDEV/Projeto-casa-Criativa.git"
+  },
+  "keywords": [],
+  "author": "Igor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IgorNascimentoDEV/Projeto-casa-Criativa/issues"
+  },
+  "homepage": "https://github.com/IgorNascimentoDEV/Projeto-casa-Criativa#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nunjucks": "^3.2.3"
+  }
+}
